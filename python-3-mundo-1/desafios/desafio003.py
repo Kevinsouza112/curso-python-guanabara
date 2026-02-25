@@ -1,5 +1,5 @@
-num1= int(input('Primeiro numero'))
-num2= int(input('Segundo numero'))
+num1= int(input('Digite um numero :'))
+num2= int(input('Digite outro numero :'))
 soma = num1+num2
 
-print('A soma é', soma)
+print('A soma dos números é', soma)
