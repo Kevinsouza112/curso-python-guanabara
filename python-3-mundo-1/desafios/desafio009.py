@@ -1,5 +1,6 @@
 print('======DESAFIO 009======')
 n = int(input('Digite um numero para saber a tabuada: '))
+print('{} x 0 = {}'.format(n,n*0))
 print('{} x 1 = {}'.format(n,n*1))
 print('{} x 2 = {}'.format(n,n*2))
 print('{} x 3 = {}'.format(n,n*3))
