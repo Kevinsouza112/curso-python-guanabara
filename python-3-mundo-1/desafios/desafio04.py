@@ -5,20 +5,26 @@
 # Mesmo que o usuario digite numeros, o Python guarda inicialmente como texto.
 n = input('Digite algo: ')
 
+# type() mostra qual e o tipo primitivo do valor digitado.
+print('O tipo primitivo desse valor e', type(n))
+
+# isspace() verifica se o texto possui apenas espacos.
+print('So tem espacos?', n.isspace())
+
 # isnumeric() verifica se o texto possui apenas caracteres numericos.
-print(n.isnumeric())
+print('E um numero?', n.isnumeric())
 
 # isalnum() verifica se o texto possui apenas letras e/ou numeros.
-print(n.isalnum())
+print('E alfanumerico?', n.isalnum())
 
 # isalpha() verifica se o texto possui apenas letras.
-print(n.isalpha())
+print('E alfabetico?', n.isalpha())
 
-# isascii() verifica se todos os caracteres fazem parte da tabela ASCII.
-print(n.isascii())
+# isupper() verifica se todas as letras estao em maiusculas.
+print('Esta em maiusculas?', n.isupper())
 
-# isdecimal() verifica se o texto possui apenas numeros decimais simples.
-print(n.isdecimal())
+# islower() verifica se todas as letras estao em minusculas.
+print('Esta em minusculas?', n.islower())
 
-# isdigit() verifica se o texto possui apenas digitos.
-print(n.isdigit())
+# istitle() verifica se cada palavra comeca com letra maiuscula.
+print('Esta capitalizado?', n.istitle())

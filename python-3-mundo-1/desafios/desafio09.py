@@ -1,5 +1,5 @@
 # DESAFIO 09
-# Objetivo: ler um numero e mostrar sua tabuada de 0 a 10.
+# Objetivo: ler um numero e mostrar sua tabuada de 1 a 10.
 
 # print() mostra um titulo simples para identificar o desafio no terminal.
 print('===== DESAFIO 009 =====')
@@ -8,10 +8,6 @@ print('===== DESAFIO 009 =====')
 # int() converte esse texto para inteiro.
 # O numero convertido fica guardado na variavel n.
 n = int(input('Digite um numero para saber a tabuada: '))
-
-# Cada print() mostra uma linha da tabuada.
-# n * 0 calcula o numero digitado multiplicado por 0.
-print('{} x 0 = {}'.format(n, n * 0))
 
 # n * 1 calcula o numero digitado multiplicado por 1.
 print('{} x 1 = {}'.format(n, n * 1))
