@@ -10,8 +10,8 @@ from pathlib import Path
 # Importa a biblioteca time, usada aqui para pausar o programa por alguns segundos.
 import time
 
-# Guarda o caminho do arquivo de audio que esta na mesma pasta deste programa.
-audio = Path(__file__).with_name('desafio21.wav')
+# Guarda o caminho do arquivo de audio dentro da pasta assets/audio do projeto.
+audio = Path(__file__).resolve().parent.parent / 'assets' / 'audio' / 'desafio21.wav'
 
 # Inicializa os modulos do pygame para que o mixer de audio possa ser usado.
 pygame.init()
